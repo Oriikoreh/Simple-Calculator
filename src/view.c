@@ -28,12 +28,3 @@ void invalidOperation(){
 void wannaTryAgain(){
     printf("\n\nDo you want to leave (0) or carry out another operation (1): ");
 }
-
-float scanValues(float n1, float n2, char op){
-    scanf("%f %s %f", &n1, &op, &n2);
-    return n1, n2, op;
-}
-
-void scanLoop(int aux){
-    scanf("%d", &aux);
-}
