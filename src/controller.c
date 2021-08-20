@@ -1,4 +1,6 @@
 #include "include/controller.h"
+#include "include/operations.h"
+#include "include/view.h"
 #include <stdbool.h>
 #include <stdio.h>
 
